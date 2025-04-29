@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 20px;
+    background-color: beige;
+    position: relative;
+    z-index: 2;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.side-container {
+    background-color: darkkhaki;
+    width: 4%;
+    height: 90vh;
+}
+
+.main-container {
+    background-color: lightgray;
+    width: 96%;
+    height: 90vh;
+}
+
+.listOflist,
+.listOflist1,
+.listOflist2 {
+    max-height: 0;
+    overflow: hidden;
+    background-color: white;
+    margin: 10px;
+    overflow-y: scroll;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.listOflist.open,
+.listOflist1.open,
+.listOflist2.open {
+    max-height: 210px; 
+}
+
+.list-con {
+    margin-bottom: -15px;
+}
+
+.list-con i {
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.listOflist h4 {
+    padding: 12px;
+    border-bottom: 1px solid lightgray;
+}
+
+.listOflist1 h4 {
+    padding: 12px;
+    border-bottom: 1px solid lightgray;
+}
+
+.listOflist2 h4 {
+    padding: 12px;
+    border-bottom: 1px solid lightgray;
+}
+
+
+.li-1,
+.li-2,
+.li-3 {
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    padding-left: 15px;
+}
+
+
+
+
+@media screen and (min-width:1000px) {
+    .drawer {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .side-container {
+        display: none;
+    }
+
+    .main-container {
+        width: 100%;
+    }
+
+    .drawer {
+        position: absolute;
+        background-color: black;
+        color: white;
+        z-index: 1;
+        width: 100%;
+        top: -300px;
+        height: 300px;
+    }
+
+}
