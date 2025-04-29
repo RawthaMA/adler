@@ -16,7 +16,7 @@ menu.addEventListener('click', function () {
     // sidenav js ends here!!
 
     if (drawer.style.top === '-300px') {
-        drawer.style.top = '65px';
+        drawer.style.top = '56px';
         drawer.style.transition = '1s'
 
 

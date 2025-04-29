@@ -8,117 +8,110 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleee.css">
 
     <style>
-        .lists {
-            margin-top: 50px;
-        }
 
-        .lists li {
-            border-bottom: 1px solid #b1d2fc;
-            padding: 15px;
-            color: #729ef7;
-            font-size: 18px;
-            font-weight: 300;
-        }
     </style>
 </head>
 
 <body>
-    <nav style="display: flex;">
-        <button type="button" id="nav-btn"><i class="fa-solid fa-bars"></i></button>
 
-        <h1>Adler</h1>
+    <nav>
+       <button id="menu"> <i  style="padding:5px; ;cursor: pointer;" class="fa-solid fa-bars"></i></button>
+        <span>Adler</span>
     </nav>
+
     <div class="container">
         <div class="side-container">
-            <button id="close-sidecon"><i class="fa-solid fa-arrow-left"></i></button>
+            <div class="list-con">
 
-            <ul class="lists">
-                <li class="li-1"><i id="icon-1" class="fa-solid fa-repeat"></i>Setup</li>
-                <ul class="listOflist" style="background-color: white;margin: 10px;overflow-y: scroll;height: 210px;">
+                <div
+                    style="display: flex;align-items: center;list-style: none;border-bottom: 1px solid #FFFCD3;padding: 10px;margin-top: 40px;">
+                    <i id="icon-1" class="fa-solid fa-repeat"></i>
+                    <li class="li-1">Setup</li>
+                </div>
 
-                    <h3 style="background-color: burlywood;padding: 10px;color: white;background-color: gray;">
-                        On board process</h3>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 2</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 3</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 4</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 5</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 6</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 7</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 8</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 9</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 6</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 7</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 8</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 9</h4>
-                </ul>
-
-
-                <li class="li-2"><i id="icon-2" class="fa-solid fa-money-check-dollar"></i>Transactions</li>
-                <ul class="listOflist1" style="background-color: white;margin: 10px;overflow-y: scroll;height: 210px;">
+                <ul class="listOflist">
 
                     <h3 style="background-color: burlywood;padding: 10px;color: white;background-color: gray;">
                         On board process</h3>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 2</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 3</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 4</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 5</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 6</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 7</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 8</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 9</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 6</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 7</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 8</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 9</h4>
+                    <h4>list 2</h4>
+                    <h4>list 3</h4>
+                    <h4>list 4</h4>
+                    <h4>list 5</h4>
+                    <h4>list 6</h4>
+                    <h4>list 7</h4>
+                    <h4>list 8</h4>
+                    <h4>list 9</h4>
+                    <h4>list 6</h4>
+                    <h4>list 7</h4>
+                    <h4>list 8</h4>
+                    <h4>list 9</h4>
                 </ul>
-
-                <li class="li-3"><i id="icon-3" class="fa-solid fa-file"></i>Reports</li>
-                <ul class="listOflist2" style="background-color: white;margin: 10px;overflow-y: scroll;height: 210px;">
-
-                    <h3 style="background-color: burlywood;padding: 10px;color: white;background-color: gray;">
-                        On board process</h3>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 2</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 3</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 4</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 5</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 6</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 7</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 8</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 9</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 6</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 7</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 8</h4>
-                    <h4 style="padding: 12px;border-bottom:1px solid lightgray;">list 9</h4>
-                </ul>
-
-            </ul>
-
-        </div>
-
-        <!-- sdie containerends here -->
-        <div class="main-container">
-
-            <div class="nav">
-                <span>Quick links</span>
-            </div>
-
-
-            <div class="grid-container">
-                <div class="pending">pending</div>
-                <div class="urgent">urgent</div>
-                <div class="Report">report</div>
-                <div class="notes">notes</div>
-                <div class="messages">messages</div>
 
             </div>
+            <div class="list-con">
+                <div
+                    style="display: flex;align-items: center;list-style: none;border-bottom: 1px solid #FFFCD3;padding: 10px;">
+                    <i id="icon-2" class="fa-solid fa-money-check-dollar"></i>
+                    <li class="li-2">Transactions</li>
+                </div>
+                <ul class="listOflist1">
+                    <h3 style="background-color: burlywood;padding: 10px;color: white;background-color: gray;">
+                        On board process</h3>
+                    <h4>list 2</h4>
+                    <h4>list 3</h4>
+                    <h4>list 4</h4>
+                    <h4>list 5</h4>
+                    <h4>list 6</h4>
+                    <h4>list 7</h4>
+                    <h4>list 8</h4>
+                    <h4>list 9</h4>
+                    <h4>list 6</h4>
+                    <h4>list 7</h4>
+                    <h4>list 8</h4>
+                    <h4>list 9</h4>
+                </ul>
 
+            </div>
+            <div class="list-con">
+                <div
+                    style="display: flex;align-items: center;list-style: none;border-bottom: 1px solid #FFFCD3;padding: 10px;">
+                    <i style="padding: 12px; border-radius: 100%;" id="icon-3" class="fa-solid fa-file"></i>
+                    <li class="li-3">Reports</li>
+                </div>
+
+                <ul class="listOflist2">
+
+                    <h3 style="background-color: burlywood;padding: 10px;color: white;background-color: gray;">
+                        On board process</h3>
+                    <h4>list 2</h4>
+                    <h4>list 3</h4>
+                    <h4>list 4</h4>
+                    <h4>list 5</h4>
+                    <h4>list 6</h4>
+                    <h4>list 7</h4>
+                    <h4>list 8</h4>
+                    <h4>list 9</h4>
+                    <h4>list 6</h4>
+                    <h4>list 7</h4>
+                    <h4>list 8</h4>
+                    <h4>list 9</h4>
+                </ul>
+
+            </div>
         </div>
+
+        <div class="drawer">
+            <center>
+                <h1>Hello</h1>
+            </center>
+        </div>
+
+        <div class="main-container"></div>
     </div>
-
-    <script src="script.js"></script>
+    <script src="scriptttt.js"></script>
 </body>
 
 </html>
