@@ -7,7 +7,7 @@ let drawer = document.querySelector('.drawer')
 menu.addEventListener('click', function () {
    
     if (sideCon.style.width === '4%') {
-        sideCon.style.width = '25%';
+        sideCon.style.width = '15%';
         sideCon.style.transition = '1s'
     } else {
         sideCon.style.width = '4%';
